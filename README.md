@@ -39,3 +39,7 @@ Aurora is a React-based ecommerce platform dedicated to AI tools and services. U
    ```bash
    git clone https://github.com/yourusername/aurora-ai-marketplace.git
    cd aurora-ai-marketplace
+
+
+  ![Aurora Front Page](/aurora%20front%20pg.png)
+
