@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Index from "./pages/Index";
 import AuthPage from "./pages/AuthPage";
+import ProductListing from "./components/ProductListing";
 
 const queryClient = new QueryClient();
 
@@ -17,6 +18,7 @@ const App = () => {
         <Router>
           <Routes>
             <Route path="/auth" element={<AuthPage />} />
+            <Route path="/products" element={<ProductListing />} />
             <Route path="/" element={<Index />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>

@@ -61,7 +61,7 @@ const Header = () => {
             <div className="flex items-center">
               <Package className="text-pastel-lavender mr-2 h-6 w-6" />
               <h1 className="text-xl font-bold font-montserrat glow-text bg-clip-text text-transparent bg-gradient-to-r from-pastel-sky to-pastel-lavender">
-                Witly
+              Aurora
               </h1>
             </div>
             
